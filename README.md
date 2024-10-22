@@ -7,7 +7,7 @@ This repository contains the code and model weights for the **RectMamba** archit
 - [Installation](#installation)
 - [Requirements](#requirements)
 - [Model Architecture](#model-architecture)
-- [Training & Testing](#training)
+- [Training & Testing](#training-testing)
 - [File Structure](#file-structure)
 
 ## Installation
@@ -63,7 +63,7 @@ The key components of the architecture include:
 - **EDKR**: Computes entropy divergence to determine the confidence level of a label and relabels samples that are likely noisy based on nearest neighbors.
 - **Adaptivemix**: An augmentation strategy that mixes samples from clean and noisy datasets based on a dynamic β-distribution.
 
-## Training & Testing
+## Training Testing
 
 To train the model on your dataset, you can run the following command:
 
@@ -101,4 +101,4 @@ RectMamba/ \
 ├── README.md                 # Project readme  \
 ```
 
-```
+
