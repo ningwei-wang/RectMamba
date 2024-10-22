@@ -86,19 +86,19 @@ Please ensure that your dataset is properly formatted and placed in the `data/` 
 The repository is organized as follows:
 
 ```
-RectMamba/ \
-│          \
-├── utils/                  # Configuration files for training and testing    \
-├── datasets/                     # Directory for datasets        \
-├── kernels/                     # Kernels       \
-├── mamba-1p1p1/        # mamba tools     \
-├── models_vmamba/        # vmamba package   \
-├── models/                   # Directory containing the RectMamba model architecture    \
-├── pretrained/                  # Pretrained weights directory      \
-├── wandb/                  # Results directory for saving outputs    \
-├── cifar 10.py                  # Script for training & testing the model    \
-├── requirements.txt          # Required Python dependencies    \
-├── README.md                 # Project readme  \
+RectMamba/ 
+│          
+├── utils/                  # Configuration files for training and testing    
+├── datasets/                     # Directory for datasets        
+├── kernels/                     # Kernels       
+├── mamba-1p1p1/        # mamba tools     
+├── models_vmamba/        # vmamba package   
+├── models/                   # Directory containing the RectMamba model architecture    
+├── pretrained/                  # Pretrained weights directory      
+├── wandb/                  # Results directory for saving outputs    
+├── cifar 10.py                  # Script for training & testing the model    
+├── requirements.txt          # Required Python dependencies    
+├── README.md                 # Project readme  
 ```
 
 
