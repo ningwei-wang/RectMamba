@@ -49,7 +49,6 @@ For more detailed installation instructions, please refer to the official VMamba
 The RectMamba architecture integrates a V-Mamba backbone with several advanced strategies for handling noisy labels. Below is an illustration of the overall architecture:
 
 ![Architecture](./figure/architecture.png)
-![Result](./figure/result.png)
 
 
 The key components of the architecture include:
@@ -74,7 +73,8 @@ python cifar 10.py --dataset_path /path/to/cifar 10 \
                --noise_ratio 0.3 \
                --k 200 \
                --epochs 50 \
-               --lr 0.001 \```
+               --lr 0.001 \
+```
 
 Please ensure that your dataset is properly formatted and placed in the `data/` directory. You can modify the training configuration in the provided YAML files.
 
