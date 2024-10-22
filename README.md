@@ -7,8 +7,7 @@ This repository contains the code and model weights for the **RectMamba** archit
 - [Installation](#installation)
 - [Requirements](#requirements)
 - [Model Architecture](#model-architecture)
-- [Training & Testing](#Training & Testing)
-- [Pretrained Models](#pretrained-models)
+- [Training & Testing](#training)
 - [File Structure](#file-structure)
 
 ## Installation
@@ -77,14 +76,8 @@ python cifar 10.py --dataset_path /path/to/cifar 10 \
 
 Please ensure that your dataset is properly formatted and placed in the `data/` directory. You can modify the training configuration in the provided YAML files.
 
-## Pretrained Models
+![Result](./figure/result.png)
 
-We provide the following pretrained models that can be downloaded and used for inference:
-
-- [Pretrained RectMamba Model (ANIMAL-10N)](www.wang.com/animal10n_rectmamba.pth)
-- [Pretrained RectMamba Model (Clothing1M)](www.wang.com/clothing1m_rectmamba.pth)
-
-Please place the downloaded weights in the `weights/` directory.
 
 ## File Structure
 
@@ -94,16 +87,16 @@ The repository is organized as follows:
 RectMamba/ \
 │          \
 ├── utils/                  # Configuration files for training and testing    \
-├── datasets/                     # Directory for datasets
-├── kernels/                     # Kernels 
-├── mamba-1p1p1/        # mamba tools 
-├── models_vmamba/        # vmamba package 
-├── models/                   # Directory containing the RectMamba model architecture
-├── pretrained/                  # Pretrained weights directory
-├── wandb/                  # Results directory for saving outputs
-├── cifar 10.py                  # Script for training & testing the model
-├── requirements.txt          # Required Python dependencies
-├── README.md                 # Project readme
+├── datasets/                     # Directory for datasets        \
+├── kernels/                     # Kernels       \
+├── mamba-1p1p1/        # mamba tools     \
+├── models_vmamba/        # vmamba package   \
+├── models/                   # Directory containing the RectMamba model architecture    \
+├── pretrained/                  # Pretrained weights directory      \
+├── wandb/                  # Results directory for saving outputs    \
+├── cifar 10.py                  # Script for training & testing the model    \
+├── requirements.txt          # Required Python dependencies    \
+├── README.md                 # Project readme  \
 ```
 
 ```
