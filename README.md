@@ -7,8 +7,7 @@ This repository contains the code and model weights for the **RectMamba** archit
 - [Installation](#installation)
 - [Requirements](#requirements)
 - [Model Architecture](#model-architecture)
-- [Training](#training)
-- [Testing](#testing)
+- [Training & Testing](#Training & Testing)
 - [Pretrained Models](#pretrained-models)
 - [File Structure](#file-structure)
 
@@ -92,9 +91,9 @@ Please place the downloaded weights in the `weights/` directory.
 The repository is organized as follows:
 
 ```
-RectMamba/
-│
-├── utils/                  # Configuration files for training and testing
+RectMamba/ \
+│          \
+├── utils/                  # Configuration files for training and testing    \
 ├── datasets/                     # Directory for datasets
 ├── kernels/                     # Kernels 
 ├── mamba-1p1p1/        # mamba tools 
