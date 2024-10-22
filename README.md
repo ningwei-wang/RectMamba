@@ -50,7 +50,7 @@ For more detailed installation instructions, please refer to the official VMamba
 
 The RectMamba architecture integrates a V-Mamba backbone with several advanced strategies for handling noisy labels. Below is an illustration of the overall architecture:
 
-![Architecture](./path_to/architecture.png)
+![Architecture](./picture/architecture.png)
 
 The key components of the architecture include:
 - **Convolutional VMamba Blocks**: These blocks are responsible for extracting hierarchical features from the input images. They use depthwise separable convolutions and Vision Support Structure (VSS) blocks for efficient feature extraction.
